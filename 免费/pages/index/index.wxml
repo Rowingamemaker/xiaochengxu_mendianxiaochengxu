@@ -1,0 +1,42 @@
+<view class="content">
+  <view class='first'>
+    <text class='first-text'>火焰山主题烤吧</text>
+    <view class='first-image'>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </view>
+  </view>
+  <view class='second'>
+    <view class='second-one' catchtap='map'>
+      <image src='../img/map.png'></image>
+      <text class='second-text-one'>大理古城南门一塔路58号游客中心旁</text>
+      <text class='second-text-two'>></text>
+    </view>
+    <view class='second-one'>
+      <image src='../img/time.png'></image>
+      <text class='second-text-one'>15:00-02:00
+</text>
+    </view>
+    <view class='second-one'>
+      <image src='../img/phone.png'></image>
+      <text class='second-text-one' catchtap='phone'>13388726006</text>
+      <text class='second-text-two'>></text>
+    </view>
+    <view class='second-one'>
+      <image src='../img/photo.png'></image>
+      <text class='second-text-one'>门店视频</text>
+    </view>
+
+  </view>
+  <video src='http://rowin.oss-cn-shenzhen.aliyuncs.com/weixinkehu/yanguniang/550e1ecea758f377881c199d67bc6ac2.mp4' objectFit="cover"></video>
+  <view class='second1'>
+    <view class='second-one'>
+      <image src='../img/photo.png'></image>
+      <text class='second-text-one'>门店图片</text>
+    </view>
+  </view>
+  <view class='third'>
+    <view class="third-view" wx:for="{{arr}}">
+      <image src='{{arr[index]}}' data-img='{{arr[index]}}' catchtap='imgs'></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,119 @@
+/**index.wxss**/
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx dashed #ececec;
+}
+
+.first-text {
+  margin: auto 0;
+  /* height: 100%; */
+  line-height: 100%;
+  width: 70%;
+  justify-content: flex-start;
+  padding-left: 10%;
+  font-size: 60rpx;
+}
+
+.first-image {
+  margin: auto 0;
+  /* height: 100%; */
+  line-height: 100%;
+  width: 30%;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.second {
+  height: 30vh;
+  width: 100%;
+}
+
+.second1 {
+  padding-top: 2%;
+  height: 8vh;
+  width: 100%;
+}
+
+.second-one {
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+  width: 100%;
+}
+
+.second image {
+  width: 7%;
+  height: 50rpx;
+  margin: auto 0;
+  padding: 0 2%;
+}
+
+.second1 image {
+  width: 7%;
+  height: 50rpx;
+  margin: auto 0;
+  padding: 0 2%;
+}
+
+.second-text-one {
+  font-size: 32rpx;
+  margin: auto 0;
+  padding-left: 2%;
+  width: 79%;
+}
+
+.second-text-two {
+  margin: auto 0;
+  color: #ececec;
+}
+
+video {
+  width: 100%;
+  height: 35vh;
+  margin: auto 0;
+}
+
+.mid video {
+  height: 630rpx;
+  width: 96%;
+  margin-left: 2%;
+  /* margin: auto 0; */
+}
+
+.third {
+  height: 50%;
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 4%;
+}
+
+.third-view {
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 31%;
+}
+
+.third image {
+  width: 200rpx;
+  height: 180rpx;
+}
